@@ -1,0 +1,145 @@
+/*--------------loginPage---------------*/
+
+.loginFrame {
+	-fx-background-image: url("/main/img/lib.jpg");
+	-fx-background-size: 100% 100%;
+}
+#login_userIDField {
+	-fx-background-radius: 30;
+}
+#login_passwordField {
+	-fx-background-radius: 30;
+}
+#login_loginButton {
+	-fx-background-color: #1F487E;
+	-fx-background-radius: 30;
+	-fx-cursor: hand;
+} #login_loginButton:hover {
+	-fx-background-color: #416BA2;
+} #login_loginButton:pressed {
+	-fx-scale-y: 0.98;
+	-fx-scale-x: 0.98;
+}
+#headerBorder_register{
+	-fx-background-color: #1F487E;
+	-fx-background-radius: 30;
+	-fx-cursor: hand;
+}
+#headerBorder_register:hover{
+	-fx-background-color: #00a20f;
+}
+#headerBorder_register:pressed{
+	-fx-scale-y: 0.98;
+	-fx-scale-x: 0.98;
+}
+#headerBorder_exit {
+	-fx-background-color: #1F487E;
+	-fx-background-radius: 30;
+	-fx-cursor: hand;
+} #headerBorder_exit:hover {
+	  -fx-background-color: #a22a30;
+  } #headerBorder_exit:pressed {
+		-fx-scale-y: 0.98;
+		-fx-scale-x: 0.98;
+	}
+/*---------------------MainPage---------------------*/
+
+.main_headerBorder {
+	-fx-background-color: #FFFFFF;
+	-fx-effect: dropshadow(three-pass-box, #333333, 10, 0, 0, 0);
+}
+#headerBorder_logoutButton {
+	-fx-background-color: #ffffff;
+	-fx-background: transparent;
+	-fx-effect: dropshadow(three-pass-box, #cccccc, 7, 0, 0, 0);
+	-fx-cursor: hand;
+} #headerBorder_logoutButton:hover {
+	-fx-background-color: #f0f0f0;
+	-fx-scale-y: 0.83;
+	-fx-scale-x: 0.83;
+} #headerBorder_logoutButton:pressed {
+	-fx-scale-y: 0.8;
+	-fx-scale-x: 0.8;
+}
+#headerBorder_addButton {
+	-fx-background-color: #ffffff;
+	-fx-background: transparent;
+	-fx-effect: dropshadow(three-pass-box, #d6d5d5, 6, 0, 0, 0);
+	-fx-cursor: hand;
+} #headerBorder_addButton:hover {
+	-fx-background-color: #f0f0f0;
+	-fx-scale-y: 1.03;
+	-fx-scale-x: 1.03;
+} #headerBorder_addButton:pressed {
+	-fx-scale-y: 1;
+	-fx-scale-x: 1;
+}
+  #headerBorder_BorrowButton{
+	  -fx-background-color: #ffffff;
+	  -fx-background: transparent;
+	  -fx-effect: dropshadow(three-pass-box, #d6d5d5, 6, 0, 0, 0);
+	  -fx-cursor: hand;
+  }
+  #headerBorder_BorrowButton:hover{
+	  -fx-background-color: #f0f0f0;
+	  -fx-scale-y: 1.03;
+	  -fx-scale-x: 1.03;
+  }
+  #headerBorder_BorrowButton:pressed{
+	  -fx-scale-y: 1;
+	  -fx-scale-x: 1;
+  }
+.main_leftBorder {
+	-fx-background-image: url("/main/img/icon1.png");
+	-fx-background-size: 100% 100%;
+}
+.leftBorder_buttons {
+	-fx-background-color: transparent;
+	-fx-cursor: hand;
+} .leftBorder_buttons:hover {
+	-fx-background-color: #1F487E;
+} .leftBorder_buttons:pressed {
+	-fx-scale-y: 0.98;
+	-fx-scale-x: 0.98;
+}
+.leftBorder_buttons_pressed {
+	-fx-background-color: #1F487E;	
+}
+.centerBorder_block {
+	-fx-background-color: #FFFFFF;
+	-fx-background-radius: 7;
+	-fx-effect: dropshadow(three-pass-box, #d6d5d5, 10, 0, 0, 0);
+}
+#Lib_Username{
+	-fx-background-radius: 30;
+}
+#Lib_password{
+	-fx-background-radius: 30;
+}
+#Lib_confirm{
+	-fx-background-radius: 30;
+}
+#Librarian_adding{
+	-fx-background-color: #1F487E;
+	-fx-background-radius: 30;
+	-fx-cursor: hand;
+}
+#Librarian_adding:hover{
+	-fx-background-color: #416BA2;
+}
+#Librarian_adding:pressed{
+	-fx-scale-y: 0.98;
+	-fx-scale-x: 0.98;
+}
+#Search_book_b{
+	-fx-cursor: hand;
+}
+#Search_book_b:hover{
+	-fx-background-color: #f0f0f0;
+	-fx-scale-y: 1.03;
+	-fx-scale-x: 1.03;
+}
+#Search_book_b:pressed{
+	-fx-scale-y: 0.98;
+	-fx-scale-x: 0.98;
+}
